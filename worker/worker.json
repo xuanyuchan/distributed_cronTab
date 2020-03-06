@@ -1,0 +1,4 @@
+{
+  "etcdEndPoints": ["119.28.150.217:2379"],
+  "etcdClientTimeOut": 3000
+}

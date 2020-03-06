@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>distributed cron jobs</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>管理后台<small>Golang分布式Crontab</small></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-primary">新建任务</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default" style="margin-top: 20px">
+                <div class="panel-body">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>任务名称</th>
+                            <th>shell命令</th>
+                            <th>cron表达式</th>
+                            <th>任务操作</th>
+                        </tr>
+                        </thead>
+                        <tbody class="job-list">
+<!--                        <tr>-->
+<!--                            <td class="job-name">job1</td>-->
+<!--                            <td class="job-command">echo hello</td>-->
+<!--                            <td class="job-cronExpr">* * * * *</td>-->
+<!--                            <td class="job-btns">-->
+<!--                                <div class="btn-toolbar">-->
+<!--                                    <button class="btn btn-info">编辑</button>-->
+<!--                                    <button class="btn btn-danger">删除</button>-->
+<!--                                    <button class="btn btn-warning">强杀</button>-->
+<!--                                </div>-->
+<!--                            </td>-->
+<!--                        </tr>-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
